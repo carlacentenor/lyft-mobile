@@ -1,0 +1,220 @@
+:root {
+  --pink: #FF00BF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.splash {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #530060, #EA1791);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+}
+
+.container-flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-white {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  left: 25%;
+}
+
+.view-principal {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../assets/images/car2.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  display: flex;
+}
+
+.logo-pink {
+  width: 200px;
+}
+
+.box-logo {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-button {
+  height: 20vh;
+  align-items: center;
+}
+
+.box-button a {
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-top: 2em;
+  padding: 1em 1.5em;
+}
+
+.box-button a:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: var(--pink);
+  border: 1px solid var(--pink);
+}
+
+
+/*page 2*/
+
+.btn-next {
+  background-color: #ea0b8c;
+  color: white;
+  border-color: #b80b8c;
+  border-bottom-width: .33332rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+.btn-next:hover {
+  background-color: #B9096F;
+  color: white;
+}
+
+.img-view1 {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.inline {
+  display: inline-block;
+  width: 49%;
+  height: 7vh;
+}
+
+.input-phone {
+  border: none;
+  border-bottom: 1px solid #ea0b8c;
+  border-radius: 0px;
+  outline: none;
+
+  margin-left: 10px;
+}
+
+.flag {
+  width: 25%;
+}
+
+.view-form {
+  text-align: center;
+}
+
+.btn-white{
+  background-color: white;
+}
+
+.box-next{
+  display: flex;
+  align-items: flex-end;
+  height: 20vh;
+}
+
+/* dropdown flag*/
+
+.dropdown-toggle,
+.dropdown-menu {
+  width: 100px
+}
+
+.btn-group img {
+  margin-right: 10px
+}
+
+.dropdown-toggle {
+  padding-right: 50px
+}
+
+
+
+.dropdown-menu>li>a:hover {
+  background: #f1f9fd
+}
+
+
+/* $search-blue */
+
+.dropdown-header {
+  background: #ccc;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px
+}
+
+/*page 3*/
+.input-code{
+  border: none;
+  border-bottom: 4px dashed #ea0b8c;
+  width: 35px;
+  border-radius: 0px;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+.lab{
+font-size: 20px;
+}
+
+/*page 4*/
+.input-group .width-input{
+  width: 50%;
+}
+
+.input-group{
+  margin-bottom: 1em;
+}
+
+.top{
+  top: 0;
+  color: #352384;
+  background-color: white;
+}
+
+input[type=checkbox] {
+  margin:4px 10px 0;
+}
+
+/*page5*/
+
+.message-confirm{
+  color: white;
+  font-size: 20px;
+}
+
+.return{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  cursor: pointer;
+}
+
+.return-page{
+  color: var(--pink);
+  position: relative;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+}
+
