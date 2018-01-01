@@ -10,6 +10,7 @@ $(document).ready(function() {
   var validateEmail = false;
   var validateChecked = false;
 
+  // Validación de email
   email.on('keyup', function(event) {
     var EMAILUSER = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
    
@@ -20,7 +21,7 @@ $(document).ready(function() {
       inactiveUser();
     }
   });
-
+  // Validación de first name
   firstName.on('keyup', function(event) {
     if (firstName.val()) {
       validateFirstName = true;
@@ -29,7 +30,7 @@ $(document).ready(function() {
       inactiveUser();
     }
   });
-
+  // Validación de last name
   lastName.on('keyup', function(event) {
     if (lastName.val()) {
       validateUser();
@@ -39,6 +40,7 @@ $(document).ready(function() {
     }
   });
 
+  // Validación de checkbox
   check.on('click', function(event) {
     if (event.target.checked) {
       validateChecked = true;
@@ -48,16 +50,18 @@ $(document).ready(function() {
     }
   });
 
+  // validación general
   function validateUser() {
     if (validateFirstName && validateLastName && validateEmail && validateChecked) {
       next.attr('disabled', false);
     }
   }
-
+  // función de desahbilitar boton next
   function inactiveUser() {
     next.attr('disabled', 'disabled');
   }
 
+  // Redireccionar a otra página
   next.on('click', function() {
     window.location.href = 'page5.html';
   });

@@ -1,9 +1,9 @@
 $(document).ready(function() {
   var codeLab = $('.input-code');
   var next = $('.btn-next');
-  /** Función de reenviar código */
   var resend = $('.resend');
 
+  /** Función de reenviar código */
   resend.on('click', function(event) {
     event.preventDefault();
     var numberRan = Math.floor(Math.random() * 1001);
@@ -12,6 +12,7 @@ $(document).ready(function() {
     localStorage.codeLab = numberRan;
   });
 
+  // Verificando código y habilitando botón
   codeLab.on('keyup', function() {
     var value = $(this).val();
 
@@ -21,7 +22,7 @@ $(document).ready(function() {
       next.attr('disabled', 'disabled');
     }
   });
-
+  // Redireccionando a otra página
   next.on('click', function() {
     window.location.href = 'page4.html';
   });

@@ -40,11 +40,11 @@
 }
 
 .logo-pink {
-  width: 200px;
+  width: 100%;
 }
 
 .box-logo {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,6 +53,18 @@
 .box-button {
   height: 20vh;
   align-items: center;
+}
+
+.controls{
+  text-align: center;
+}
+
+.logo-white-view1{
+  width: 25%;
+}
+
+.box-logo-white{
+  text-align: center;
 }
 
 .box-button a {
@@ -82,6 +94,14 @@
   font-weight: 400;
   text-transform: uppercase;
   transition: .5s;
+  padding: 1em;
+  font-size: 16px;
+}
+
+button[disabled]{
+  background-color: rgb(184, 179, 179);
+  border-color: #807a7e;
+  border-bottom-width: .33332rem;
 }
 
 .btn-next:hover {
@@ -89,8 +109,13 @@
   color: white;
 }
 
+button[disabled]:hover{
+  background-color: rgb(143, 141, 142);
+  color: white;
+}
+
 .img-view1 {
-  width: 100%;
+  width: 40%;
   margin-top: 1em;
 }
 
@@ -115,6 +140,7 @@
 
 .view-form {
   text-align: center;
+  margin-top: 7vh;
 }
 
 .btn-white{
@@ -125,7 +151,10 @@
   display: flex;
   align-items: flex-end;
   height: 20vh;
+  margin-top: 7vh;
 }
+
+
 
 /* dropdown flag*/
 
@@ -165,14 +194,20 @@
 .input-code{
   border: none;
   border-bottom: 4px dashed #ea0b8c;
-  width: 35px;
+  width: 43px;
   border-radius: 0px;
   outline: none;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
+  height: 26px;
+  padding: 0;
 }
 
 .lab{
 font-size: 20px;
+}
+
+.box-sug{
+  margin-top: 3vh;
 }
 
 /*page 4*/
@@ -194,6 +229,14 @@ input[type=checkbox] {
   margin:4px 10px 0;
 }
 
+.checkbox{
+  display: inline-block;
+}
+
+
+.img-v4{
+  width: 40%;
+}
 /*page5*/
 
 .message-confirm{
@@ -201,6 +244,13 @@ input[type=checkbox] {
   font-size: 20px;
 }
 
+.box-confirm{
+  text-align: center;
+}
+
+.box-logo-end{
+  margin-bottom: 1em;
+}
 .return{
   color: white;
   font-size: 30px;

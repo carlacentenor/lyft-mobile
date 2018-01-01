@@ -2,5 +2,5 @@
 $(document).ready(function() {
   setTimeout(function() { 
     window.location.href = 'views/page1.html';
-  }, 8000);
+  }, 5000);
 });
