@@ -3,14 +3,14 @@ $(document).ready(function() {
   var btnNext = $('.btn-next');
 
   // función que valida que solo ingrese números
-  phone.on('input', function() { 
-    this.value = this.value.replace(/[^0-9]/g, ''); 
+  phone.on('input', function() {
+    this.value = this.value.replace(/[^0-9]/g, '');
   });
 
   // función que valida la cantidad de caracteres
   phone.keyup(function() {
     var value = $(this).val();
-    
+
     if (value.length === 10) {
       btnNext.attr('disabled', false);
     } else {

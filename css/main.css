@@ -55,15 +55,15 @@
   align-items: center;
 }
 
-.controls{
+.controls {
   text-align: center;
 }
 
-.logo-white-view1{
+.logo-white-view1 {
   width: 25%;
 }
 
-.box-logo-white{
+.box-logo-white {
   text-align: center;
 }
 
@@ -98,7 +98,7 @@
   font-size: 16px;
 }
 
-button[disabled]{
+button[disabled] {
   background-color: rgb(184, 179, 179);
   border-color: #807a7e;
   border-bottom-width: .33332rem;
@@ -109,7 +109,7 @@ button[disabled]{
   color: white;
 }
 
-button[disabled]:hover{
+button[disabled]:hover {
   background-color: rgb(143, 141, 142);
   color: white;
 }
@@ -130,7 +130,6 @@ button[disabled]:hover{
   border-bottom: 1px solid #ea0b8c;
   border-radius: 0px;
   outline: none;
-
   margin-left: 10px;
 }
 
@@ -143,17 +142,16 @@ button[disabled]:hover{
   margin-top: 7vh;
 }
 
-.btn-white{
+.btn-white {
   background-color: white;
 }
 
-.box-next{
+.box-next {
   display: flex;
   align-items: flex-end;
   height: 20vh;
   margin-top: 7vh;
 }
-
 
 
 /* dropdown flag*/
@@ -170,8 +168,6 @@ button[disabled]:hover{
 .dropdown-toggle {
   padding-right: 50px
 }
-
-
 
 .dropdown-menu>li>a:hover {
   background: #f1f9fd
@@ -190,8 +186,10 @@ button[disabled]:hover{
   margin-bottom: 5px
 }
 
+
 /*page 3*/
-.input-code{
+
+.input-code {
   border: none;
   border-bottom: 4px dashed #ea0b8c;
   width: 43px;
@@ -202,56 +200,60 @@ button[disabled]:hover{
   padding: 0;
 }
 
-.lab{
-font-size: 20px;
+.lab {
+  font-size: 20px;
 }
 
-.box-sug{
+.box-sug {
   margin-top: 3vh;
 }
 
+
 /*page 4*/
-.input-group .width-input{
+
+.input-group .width-input {
   width: 50%;
 }
 
-.input-group{
+.input-group {
   margin-bottom: 1em;
 }
 
-.top{
+.top {
   top: 0;
   color: #352384;
   background-color: white;
 }
 
 input[type=checkbox] {
-  margin:4px 10px 0;
+  margin: 4px 10px 0;
 }
 
-.checkbox{
+.checkbox {
   display: inline-block;
 }
 
-
-.img-v4{
+.img-v4 {
   width: 40%;
 }
+
+
 /*page5*/
 
-.message-confirm{
+.message-confirm {
   color: white;
   font-size: 20px;
 }
 
-.box-confirm{
+.box-confirm {
   text-align: center;
 }
 
-.box-logo-end{
+.box-logo-end {
   margin-bottom: 1em;
 }
-.return{
+
+.return {
   color: white;
   font-size: 30px;
   position: absolute;
@@ -260,11 +262,10 @@ input[type=checkbox] {
   cursor: pointer;
 }
 
-.return-page{
+.return-page {
   color: var(--pink);
   position: relative;
   top: 15px;
   left: 15px;
   font-size: 30px;
 }
-
